@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply  py-3 px-7 text-white rounded-full  
+}
+
+.btn-cyan{
+    @apply bg-strong-cyan shadow-sm shadow-strong-cyan/60
+}
+
+.btn-light-blue{
+    @apply bg-light-blue shadow-sm shadow-light-blue/60
+}
+
+.btn-cyan:hover{
+    @apply shadow-md shadow-strong-cyan/75
+}
+
+.btn-light-blue:hover{
+    @apply shadow-md shadow-light-blue/75
+}
