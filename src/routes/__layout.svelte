@@ -1,5 +1,5 @@
 <script>
-import './style.css'
+import '../../src/style.css'
 </script>
 
 <slot></slot>
